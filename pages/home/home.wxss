@@ -1,0 +1,51 @@
+.seach_bar{
+    position: relative;
+    width: 690rpx;
+    height: 56rpx;
+    background: #ededed;
+    border-radius: 8rpx;
+    margin: 16rpx auto;
+    font-size: 30rpx;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.seach_bar_con::before{
+    content: "";
+    position: absolute;
+    margin-left: -38rpx;
+    width: 28rpx;
+    height: 28rpx;
+    background: chocolate;
+    background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png) center no-repeat;
+    background-size: 100%;
+    top: 50%;
+    margin-top: -14rpx;
+}
+.home_banner{
+    width: 100%;
+}
+.home_car{
+    height: 120rpx;
+    display: flex;
+    justify-content: space-around;
+}
+.home_car image{
+    width: 38rpx;
+    height: 38rpx;
+    background: olive;
+}
+.home_car_item{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home_car_item text{
+    color: #333;
+    font-size: 24rpx;
+    text-align: center;
+}

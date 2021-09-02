@@ -1,0 +1,55 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/special/special",
+        "pages/classifcation/classifcation",
+        "pages/shopping/shopping",
+        "pages/personal/personal"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "京东",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#b4282d",
+    "color": "#666",
+    "list": [
+        {
+            "pagePath": "pages/home/home",
+            "iconPath": "image/homepage.png",
+            "selectedIconPath": "image/select-homepage.png",
+            "text": "首页"
+        },
+        {
+            "pagePath": "pages/special/special",
+            "iconPath": "image/special.png",
+            "selectedIconPath": "image/select-special.png",
+            "text": "专题"
+        },
+        {
+            "pagePath": "pages/classifcation/classifcation",
+            "iconPath": "image/classification.png",
+            "selectedIconPath": "image/select-classification.png",
+            "text": "分类"
+        },
+        {
+            "pagePath": "pages/shopping/shopping",
+            "iconPath": "image/shopping.png",
+            "selectedIconPath": "image/select-shopping.png",
+            "text": "购物车"
+        },
+        {
+            "pagePath": "pages/personal/personal",
+            "iconPath": "image/personal.png",
+            "selectedIconPath": "image/select-personal.png",
+            "text": "我的"
+        }
+    ]
+  }
+}
